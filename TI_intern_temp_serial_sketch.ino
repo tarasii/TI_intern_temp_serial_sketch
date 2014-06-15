@@ -63,13 +63,12 @@ void loop() {
     //inByte = Serial.read();
     //Serial.write(inByte);
     ;
+
+    Serial.print("t=");
+    Serial.print(tempc);
+    Serial.print("\n");
+    
   }
-
-
-
-  Serial.print("t=");
-  Serial.print(tempc);
-  Serial.print("\n");
 
   lcd.setCursor(2, 0);
   lcd.print(tempc);
